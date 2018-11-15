@@ -127,7 +127,7 @@
   },
   "proxy":{
     "/api":{
-      "target":"http://192.168.31.189:8888/api",
+      "target":"",
       "secure": false,
       "changeOrigin": true,
       "pathRewrite": {
@@ -135,7 +135,7 @@
       }
     },
     "/app/mock": {
-      "target": "http://mock.supercop.cn/app/mock/27//api/files",
+      "target": "",
       "secure": false,
       "changeOrigin": true,
       "pathRewrite": {
