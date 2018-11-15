@@ -1,0 +1,35 @@
+
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1536292874529'); /* IE9*/
+  src: url('iconfont.eot?t=1536292874529#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+  url('iconfont.ttf?t=1536292874529') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1536292874529#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-centerfocusstrong:before { content: "\e6c1"; }
+
+.icon-t:before { content: "\e7b9"; }
+
+.icon-huatong:before { content: "\e67e"; }
+
+.icon-fangda:before { content: "\e6b7"; }
+
+.icon-guanxitu:before { content: "\e706"; }
+
+.icon-suoxiao:before { content: "\e604"; }
+
+.icon-fullscreen:before { content: "\e7ec"; }
+
+.icon-biaoqian:before { content: "\eed1"; }
+
+.icon-t-copy:before { content: "\eed2"; }
+

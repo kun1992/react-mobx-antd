@@ -1,0 +1,122 @@
+@import '~antd/dist/antd.css';
+@import "static/contentFont/iconfont.css";
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFFFFF;
+    z-index: 55;
+    box-shadow: 0 1px 4px 0 rgba(0, 21, 41, 0.12);
+}
+
+.header_main {
+    width: 1136px;
+    height: 64px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header_logo {
+    float: left;
+    margin-right: 94px;
+}
+
+.header_logo span {
+    font-family: KlavikaMedium-Plain;
+    font-size: 24px;
+    color: #257BDE;
+    line-height: 22px;
+}
+
+.header_center {
+    width: 470px;
+    float: left;
+    text-align: center;
+}
+
+.header_center .ant-menu-horizontal {
+    border: none;
+}
+
+.header_center > ul {
+    height: 64px !important;
+    line-height: 64px;
+}
+
+.header_center > .ant-menu-horizontal > .ant-menu-item-selected {
+    border-bottom: none;
+}
+
+.header_right {
+    float: right;
+    width: 350px;
+    height: 64px;
+    text-align: right;
+}
+
+.header_right_img {
+    width: 24px;
+    margin-left: 24px;
+    border-radius: 50%;
+}
+
+.header_right_setting {
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.header_admin {
+    margin-left: 8px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 22px;
+}
+
+.hideCheckbox {
+    margin: 6px 0;
+}
+
+.setting_line {
+    width: 100%;
+    height: 1px;
+    border-top: solid rgba(204, 210, 215, 0.50) 1px;
+    margin-bottom: 10px;
+}
+
+.showNumber {
+    margin-left: 25px;
+    margin-top: 6px;
+}
+
+.deleteHistory {
+    margin: 17px;
+    text-align: center;
+}
+
+.about {
+
+}
+
+.about .about_content {
+    margin-bottom: 15px;
+}
+
+.about .about_content > p {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #373D41;
+    letter-spacing: 0;
+    margin-bottom: 0px !important;
+}
+
+.about_footer {
+    margin-top: 32px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 20px;
+    text-align: center;
+}

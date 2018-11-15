@@ -1,0 +1,62 @@
+.login {
+    width: 100%;
+    height: auto;
+    background-color: #1F2325;
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.login_body{
+    width: 411px;
+    height: 403px;
+    padding: 36px 39px;
+    position: absolute;
+    top: 50%;
+    margin-top: -201.5px;
+    left: 50%;
+    margin-left: -205.5px;
+    background: #FFF;
+}
+.login_body .ant-tabs-nav .ant-tabs-tab{
+    width: 50%;
+    margin: 0 !important;
+    font-size: 16px;
+    text-align: center;
+}
+.login_body .ant-tabs-nav{
+    width: 100%;
+}
+.login_body .ant-tabs-bar{
+    margin: 0;
+}
+.login_body .ant-form-item{
+
+}
+.login_body .accountLogin .ant-form-item:first-child,.login_body .cellLogin div:first-child{
+    margin-bottom: 24px !important;
+    margin-top: 30px;
+}
+.login_body .accountLogin .ant-form-item input,.login_body .cellLogin input{
+    height: 40px;
+}
+.forgetPwd{
+    margin-top:17px;
+    text-align: right;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1890FF;
+    line-height: 22px;
+}
+.login-form-button{
+    width: 100%;
+    height: 40px;
+    margin-top: 22px;
+}
+.getYZM{
+    margin-left:12px ;
+    height: 40px;
+    width: 130px;
+}

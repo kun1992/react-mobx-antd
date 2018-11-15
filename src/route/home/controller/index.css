@@ -1,0 +1,253 @@
+.searchHeader {
+    overflow: hidden;
+}
+
+.searchHeader_left {
+    float: left;
+}
+
+.searchHeader_left > span {
+    margin-right: 11px;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 24px;
+}
+
+.searchHeader_right {
+    float: right;
+    text-align: right;
+}
+
+.searchHeader_right > span {
+    margin: 0 16px 0 24px;
+}
+
+.search_select .ant-collapse > .ant-collapse-item:last-child {
+    border-bottom: none;
+}
+
+.search_select .ant-collapse-header, .list .ant-collapse-header, .hot_search .ant-collapse-header {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.searchInput {
+    margin: 32px 0;
+    text-align: center;
+}
+
+.search_input {
+    width: 552px;
+}
+
+.retrieve {
+    padding-bottom: 21px;
+    border-bottom: 1px dotted #E9E9E9;
+}
+
+.caseType {
+    margin: 17px 0;
+}
+
+.retrieve label, .caseType label {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 22px;
+}
+
+.isShow {
+    color: #69c0ff;
+    cursor: pointer;
+}
+
+.active {
+    display: none;
+}
+
+.list, .hot_search {
+    margin: 20px 0;
+}
+
+.listTitle {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 24px;
+}
+
+.listTitleIcon {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #9B9B9B;;
+    text-align: center;
+    line-height: 24px;
+}
+
+.listTag {
+    margin: 12px 0;
+}
+
+.listTag > button {
+    margin-right: 12px;
+}
+
+.list_content {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.65);
+    line-height: 24px;
+}
+
+.list_edit > .avter {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.list_edit > .name {
+    margin: 0 16px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #1890FF;
+    line-height: 22px;
+}
+
+.list_edit > .address {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+}
+
+.list_edit {
+    margin: 12px 0;
+}
+
+.list_edit > .time {
+    margin-left: 16px;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.25);
+    line-height: 22px;
+}
+
+.add_more {
+    width: 166px;
+    height: 32px;
+    margin: 30px auto;
+    line-height: 32px;
+    text-align: center;
+    background: #FFFFFF;
+    cursor: pointer;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+
+.selectType {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.hot_search .hot_search_title {
+    margin: 24px 0 8px 0;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+}
+
+.hot_search .hot_search_count > span:first-child {
+    margin-right: 32px;
+    font-family: HelveticaNeue;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 32px;
+}
+
+.hot_search .hot_search_count > span:last-child {
+    font-family: HelveticaNeue;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 24px;
+}
+
+.hot_search .hot_search_page {
+    margin: 13px 0;
+}
+
+.hot_search .hot_search_page .left {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+}
+
+.labelClass {
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #4A4A4A;
+    line-height: 32px;
+}
+
+.gray, .red, .blue, .green, .yellow {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.gray {
+    background: rgba(0, 0, 0, 0.20);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.20);
+}
+
+.red {
+    background: #F5222D;
+}
+
+.blue {
+    background: #1890FF;
+}
+
+.green {
+    background: #52C41A;
+}
+
+.yellow {
+    background: #FAAD14;
+}
+
+.organization .ant-table-pagination.ant-pagination {
+    margin: 16px auto;
+    text-align: center;
+    float: none !important;
+
+}
+
+.ant-list-pagination {
+    text-align: center;
+}
+
+.demo-infinite-container {
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    overflow: auto;
+    padding: 8px 24px;
+    height: 300px;
+}
+
+.demo-loading-container {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+.map .ant-modal-body, .relation .ant-modal-body {
+    padding: 0 !important;
+}
